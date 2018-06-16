@@ -13,7 +13,9 @@ class User {
 }
 
 class MyApp {
-
+  
+  // そのクラスのインスタンスを呼び出すときには、そのクラスの型のインスタンスとして呼び出します。
+  //  Userクラスなら、User型のインスタンスとして呼び出すことになります。
   static void Main() {
     User user = new User(); // インスタンス
     Console.WriteLine(user.name); // me
