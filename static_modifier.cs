@@ -1,6 +1,8 @@
 using System;
 
 // static
+// 今までクラスはこのようにインスタンスを作って使っていくと説明してきましたが、実は static キーワードを使うと、
+// インスタンス化しなくてもクラスから直接呼び出せるフィールドやメソッドを定義することができます。
 
 class User {
   private static int count = 0;
