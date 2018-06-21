@@ -9,7 +9,7 @@ class User {
       if (value != "") {
         this.name = value;
       }
-    } // setter
+    } // setter. we can set various function to setter concerning value.
   }
   // public string Name { get; set; } = "me!";
 }
