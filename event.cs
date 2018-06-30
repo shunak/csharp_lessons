@@ -1,6 +1,7 @@
 using System;
 
 // イベント
+// イベントは何かが起きたときに何らかの通知をするための仕組み
 
 delegate void MyEventHandler();
 
